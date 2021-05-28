@@ -1,0 +1,28 @@
+---
+galaxy_info:
+    author: "DFed, George Nalen, Carnell Smith"
+    description: "Apply the Apache 2.4 STIG"
+    company: "MindPoint Group"
+    license: MIT
+    role_name: apache_24_stig
+    min_ansible_version: 2.6.5
+
+    platforms:
+        - name: EL
+          versions:
+              - 7
+              - 8
+
+        - name: Ubuntu
+          versions:
+              - xenial
+              - bionic
+              - focal
+
+    galaxy_tags:
+        - system
+        - security
+        - cis
+        - hardening
+
+dependencies: []
